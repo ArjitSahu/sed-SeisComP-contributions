@@ -1,5 +1,6 @@
 SC_BEGIN_PACKAGE(SED)
-
+ 
+ 
 IF(CMAKE_COMPILER_IS_GNUCC)
 	IF(GCC_VERSION VERSION_LESS "4.7")
 		MESSAGE(FATAL_ERROR "GCC version ${GCC_VERSION} found but 4.7 required as minimum")
